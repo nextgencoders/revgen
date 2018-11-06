@@ -1,0 +1,6 @@
+version: '3'
+services:
+    python:
+        build: ./docker/python3.7
+        volumes:
+            - .:/app
